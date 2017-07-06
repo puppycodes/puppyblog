@@ -90,13 +90,33 @@ table {
 
 html {
 	height: 100%;
-	background-color: #ffffff;
+	background-color: transparent;
 	font-family: "open-sans";
 }
 
+
+
+
 body {
 	margin: 20%;
+	padding-bottom: 20%;
 }
+
+
+
+
+@media (max-width: 500px) {
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+}
+
+
+
+
+
 
 ul {
   list-style-type: none;
@@ -205,12 +225,9 @@ animation: marquee 100s linear infinite;
   100% { transform: translateX(-105%) }
 }
 
-}
 
 pre {
-
     display: inline-block;
-    width: 100%;
     position: relative;
     background-color: #0a0a0a;
     color: pink;
@@ -238,11 +255,11 @@ pre {
     -moz-hyphens: none;
     -webkit-hyphens: none;
     hyphens: none;
-
 }
 
 code {
 	white-space: normal;
+	word-wrap: break-word;
 
 }
 
@@ -267,4 +284,8 @@ article .post-date  {
     left: 5%;
     top: 5%;
 		z-index: -1;
+}
+
+article a {
+	 word-wrap: break-word;
 }
