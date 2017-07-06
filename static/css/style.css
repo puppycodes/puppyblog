@@ -57,6 +57,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -71,11 +73,13 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -94,26 +98,17 @@ html {
 	font-family: "open-sans";
 }
 
-
-
-
 body {
 	margin: 20%;
 	padding-bottom: 20%;
 }
 
-
-
-
 @media (max-width: 500px) {
 body {
 	margin-left: 10%;
 	margin-right: 10%;
+	}
 }
-
-}
-
-
 
 
 
@@ -227,34 +222,36 @@ animation: marquee 100s linear infinite;
 
 
 pre {
-    display: inline-block;
-    position: relative;
-    background-color: #0a0a0a;
-    color: pink;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-		flex-direction: row;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: flex-start;
-    padding-bottom: 10%;
-    padding: 20px;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word;
-    -ms-hyphens: none;
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
+
+display: inline-block;
+position: relative;
+background-color: #0a0a0a;
+color: pink;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: flex-start;
+padding-bottom: 10%;
+padding: 20px;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+margin-bottom: 5%;
+overflow-wrap: break-word;
+word-wrap: break-word;
+-ms-word-break: break-all;
+word-break: break-all;
+word-break: break-word;
+-ms-hyphens: none;
+-moz-hyphens: none;
+-webkit-hyphens: none;
+hyphens: none;
+
 }
 
 code {
