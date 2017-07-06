@@ -64,12 +64,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -86,10 +89,6 @@ table {
 }
 
 /* END RESET */
-
-
-
-
 
 
 html {
@@ -222,12 +221,10 @@ animation: marquee 100s linear infinite;
 
 
 pre {
-
 display: inline-block;
 position: relative;
 background-color: #0a0a0a;
 color: pink;
-display: -webkit-flex;
 display: flex;
 -webkit-flex-direction: row;
 flex-direction: row;
@@ -245,13 +242,11 @@ margin-bottom: 5%;
 overflow-wrap: break-word;
 word-wrap: break-word;
 -ms-word-break: break-all;
-word-break: break-all;
 word-break: break-word;
 -ms-hyphens: none;
 -moz-hyphens: none;
 -webkit-hyphens: none;
 hyphens: none;
-
 }
 
 code {
