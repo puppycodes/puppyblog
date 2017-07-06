@@ -1,0 +1,7 @@
+<section class="content">
+	<ul>
+		{{  range where .Data.Pages "Section" "post" }}
+		<li><a href="{{ .Permalink }}">{{ .Title }}</a><time class="post-date">{{ .Date.Format "2.01.06" }}</time></li>
+		{{ end }}
+	</ul>
+</section>
