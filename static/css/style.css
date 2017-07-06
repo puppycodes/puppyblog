@@ -165,7 +165,7 @@ p {
 }
 
 .content {
-	margin-top: 10%;
+	margin-top: 10%; 
 	line-height: 1.5em;
 	font-family: "open-sans";
 }
@@ -226,11 +226,8 @@ position: relative;
 background-color: #0a0a0a;
 color: pink;
 display: flex;
--webkit-flex-direction: row;
 flex-direction: row;
--webkit-align-items: center;
 align-items: center;
--webkit-justify-content: center;
 justify-content: flex-start;
 padding-bottom: 10%;
 padding: 20px;
@@ -239,13 +236,13 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 5%;
 margin-bottom: 5%;
-word-wrap: break-word;
+word-break: break-word;
 hyphens: none;
 }
 
 code {
 	white-space: normal;
-	word-wrap: break-word;
+	word-break: break-word;
 	width: 100%;
 
 }
