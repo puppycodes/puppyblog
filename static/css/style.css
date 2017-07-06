@@ -165,7 +165,7 @@ p {
 }
 
 .content {
-	margin-top: 5%;
+	margin-top: 10%;
 	line-height: 1.5em;
 	font-family: "open-sans";
 }
@@ -277,6 +277,17 @@ article .post-date  {
     top: 5%;
 		z-index: -1;
 }
+
+@media (max-width: 500px) {
+
+	article .post-date {
+			font-size: 7vh;
+		  left: 4%;
+	    top: 1%;
+	}
+
+}
+
 
 article a {
 	 word-wrap: break-word;
