@@ -165,7 +165,7 @@ p {
 }
 
 .content {
-	margin-top: 10%; 
+	margin-top: 10%;
 	line-height: 1.5em;
 	font-family: "open-sans";
 }
@@ -190,11 +190,13 @@ p {
 
 
 .post-date {
-    font-family: "associate-sans-mono";
-    color: #b9b9b9;
-    font-size: 0.9em;
-    float: right;
-    display: inline-block;
+	font-family: "associate-sans-mono";
+	color: #e1cdff;
+	font-size: 0.9em;
+	display: inline-block;
+	float: right;
+	padding-left: 20px;
+	white-space: nowrap;
 }
 
 
